@@ -1,0 +1,40 @@
+body{
+    background-color: #5d586e;
+    
+}
+.formbox{
+    background-color: #2B2738;
+    height: 650px;
+    width: 1039px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+.mainimg{
+    background-color: white;
+    height: 624px;
+    width: 500px;
+    margin: 13px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url(miggingimg.jpg);
+    background-size: cover;
+
+}
+
+.signup{
+    background-color: #2B2738;
+    height: 624px;
+    width: 500px;
+    margin: 13px;
+    margin-left: 526px;
+    position: absolute;
+
+}
+h1{
+    text-align:center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
