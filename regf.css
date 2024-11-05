@@ -9,6 +9,11 @@ body{
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     
 }
 
@@ -16,9 +21,6 @@ body{
     background-color: white;
     height: 624px;
     width: 500px;
-    margin: 13px;
-    position: absolute;
-    border-radius: 10px;
     background-image: url(miggingimg.jpg);
     background-size: cover;
 
@@ -28,13 +30,90 @@ body{
     background-color: #2B2738;
     height: 624px;
     width: 500px;
-    margin: 13px;
-    margin-left: 526px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: left;
+}
+
+#h1{
+    color: white;
+    font-size: 45px;
+    font-family: arial;
+}
+#h2{
+    color: white;
+    font-family: arial;
 
 }
-h1{
-    text-align:center;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a{
+    color: #6E54B5;
 }
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+    
+}
+
+#tnc{
+    /* align-self: flex-start;*/
+    flex-grow: unset;
+    font-size: 15px;
+    font-family: arial;
+}
+
+button{
+    background-color: #6E54B5;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    padding-left: 5px;
+    background-color: #3B364C;
+}
+
+::placeholder{
+    color: #6F6D7E;
+    text-align:start;
+    padding-left: 10px;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #6E54B5;
+    box-shadow: 0 0 10px #6E54B5;
+ }
+
+ a:hover{
+    color: #554090;
+ }
+
+ button:hover{
+    background-color: #554090;
+
+ }
+
+ #cb{
+    accent-color: #554090;
+    border: none;
+ }
